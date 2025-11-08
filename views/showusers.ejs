@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Users</title>
     <style>
-      table, 
+      table,
       th,
       td {
         border: 1px solid black;
@@ -24,6 +24,11 @@
         <td><%= user.id %></td>
         <td><%= user.email %></td>
         <td><%= user.username %></td>
+        <td>
+          <form method="GET" action="/user/<%=user.id%>/edit">
+            <button>Edit username</button>
+          </form>
+        </td>
       </tr>
       <% } %>
     </table>
