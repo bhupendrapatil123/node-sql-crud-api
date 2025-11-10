@@ -1,0 +1,77 @@
+# 🧑‍💻 User Management App (Node.js + Express + MySQL + EJS)
+
+A simple full-stack CRUD-style web application built using **Node.js**, **Express**, **MySQL**, and **EJS**.  
+It allows you to **view**, **edit**, and **update** user details stored in a MySQL database.
+
+---
+
+## 🚀 Features
+
+- View total number of users
+- Display all user records in a table
+- Edit and update username (with password verification)
+- Clean EJS templates for rendering pages
+- Uses `method-override` for HTTP PATCH requests
+
+---
+
+## 🗂️ Project Structure
+
+project-folder/
+│
+├── views/
+│ ├── home.ejs
+│ ├── showusers.ejs
+│ └── edit.ejs
+│
+├── index.js
+├── schema.sql
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ Technologies Used
+
+- **Backend:** Node.js, Express.js  
+- **Database:** MySQL (using `mysql2` package)  
+- **Templating Engine:** EJS  
+- **Utilities:** Faker.js, Method-Override  
+
+---
+
+## 🛠️ Installation and Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/user-management-app.git
+cd user-management-app
+
+### 2. Install Dependencies
+      npm install
+
+### 3. Create the Database
+    Open MySQL and run:
+       CREATE DATABASE delta_app;
+       USE delta_app;
+       SOURCE schema.sql;
+
+### 4. Start the Server
+       node index.js
+
+# Available Routes:
+| Route            | Method | Description                          |
+| ---------------- | ------ | ------------------------------------ |
+| `/`              | GET    | Show total user count                |
+| `/user`          | GET    | List all users                       |
+| `/user/:id/edit` | GET    | Edit a specific user                 |
+| `/user/:id`      | PATCH  | Update username after password check |
+
+🧑‍💻 Author
+
+Bhupendra Patil
+Made with ❤️ using Node.js and MySQL.
+
+
+
