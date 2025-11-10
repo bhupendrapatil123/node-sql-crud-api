@@ -1,7 +1,7 @@
 # 🧑‍💻 Node SQL CRUD API (Node.js + Express + MySQL + EJS)
 
-A simple full-stack CRUD-style web application built using **Node.js**, **Express**, **MySQL**, and **EJS**.  
-It allows you to **view**, **edit**, and **update** user details stored in a MySQL database.
+A simple User Management Web App built with Node.js, Express, MySQL, and EJS.
+Perform basic CRUD operations — view, edit, and update user details with a clean UI.
 
 ---
 
