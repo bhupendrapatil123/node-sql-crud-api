@@ -44,9 +44,8 @@ project-folder/
 ## 🛠️ Installation and Setup
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/user-management-app.git
-cd user-management-app
+git clone https://github.com/bhupendrapatil123/node-sql-crud-api.git
+cd node-sql-crud-api
 
 ### 2. Install Dependencies
       npm install
