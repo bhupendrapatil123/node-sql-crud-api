@@ -67,10 +67,7 @@ cd node-sql-crud-api
 | `/user/:id/edit` | GET    | Edit a specific user                 |
 | `/user/:id`      | PATCH  | Update username after password check |
 
-🧑‍💻 Author
 
-Bhupendra Patil
-Made with ❤️ using Node.js and MySQL.
 
 
 
